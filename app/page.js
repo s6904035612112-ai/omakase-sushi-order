@@ -1,17 +1,32 @@
 import Link from "next/link";
 
 export default function HomePage() {
-  return (
-    <main style={{ padding: "2rem", fontFamily: "sans-serif" }}>
-      <h1>omakase sushi</h1>
-      <ul>
-        <li>
-          <Link href="/generate-qr">/generate-qr</Link>
-        </li>
-        <li>
-          <Link href="/kitchen">/kitchen</Link>
-        </li>
-      </ul>
-    </main>
-  );
+  return (
+    
+{/* ป้ายตราประทับสีแดงสไตล์ญี่ปุ่นโบราณ */}
+
+おまかせ • OMAKASE
+
+{/* omakase-sushi */}
+
+omakase sushi
+ระบบสั่งอาหารร้านบุฟเฟต์โอมากาเสะ ซูชิ
+
+{/* ปุ่มตัวเลือกขนาดใหญ่ */}
+
+{/* ปุ่มที่ 1: หน้าสร้าง QR Code */}
+
+📱
+เปิดโต๊ะ & สร้าง QR Code
+➔
+
+{/* ปุ่มที่ 2: หน้าห้องครัว */}
+
+👨‍🍳
+หน้าห้องครัว (Kitchen)
+➔
+
+🍣 Omakase Buffet Ordering System
+
+);
 }
